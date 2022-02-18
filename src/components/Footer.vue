@@ -55,12 +55,15 @@ span {
 }
 @media (max-width: 700px) {
   section {
-  margin-top: 10%;
+  margin-top: 2%;
   }
 }
-@media (max-width: 280px) {
+@media (max-width: 300px) {
   span {
     text-align: center;
+  }
+  section {
+    margin-top: 2em;
   }
 }
 </style>

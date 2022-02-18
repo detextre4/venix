@@ -2,7 +2,7 @@
   <section>
     <aside>
       <div class="imagen">
-        <img width="26" height="32" src="@/assets/logo2.png" alt="Logo">
+        <img width="44" height="52" src="@/assets/logo2.png" alt="Logo">
       </div>
       <h2>VENIX</h2>
     </aside>
@@ -21,6 +21,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 15%;
 }
 aside {
   width: 15%;
@@ -31,7 +32,7 @@ aside {
 }
 aside h2 {
   color: black;
-  font-size: 1.6em;
+  font-size: 3em;
   font-weight: bold;
 }
 .imagen {
@@ -39,6 +40,6 @@ aside h2 {
   margin-right: 0.3em;
 }
 img {
-  border-radius: 0.21em;
+  border-radius: 0.4em;
 }
 </style>

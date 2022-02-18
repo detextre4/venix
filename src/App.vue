@@ -26,6 +26,7 @@ export default {
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: auto;
   margin-top: 1em;
   width: 100%;
 }
