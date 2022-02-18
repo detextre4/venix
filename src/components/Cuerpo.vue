@@ -48,7 +48,8 @@ export default {
             this.form.email = '';
             alert("mail has been sent successfully ")
           }
-        })
+        }
+      )
     }
   },
 };
