@@ -14,10 +14,10 @@
         <!-- formulario -->
         <form action="" @submit.prevent="guardar">
           <input
+            id="emails-input"
             v-model="form.email"
             placeholder="Email"
             type="email"
-            pattern=".+@gmail.com"
             required
           />
           <input type="submit" value="Subscribe" @submit.prevent="guardar" />
@@ -42,12 +42,14 @@ export default {
   },
   methods: {
     guardar() {
-      axios.post('http://157.230.2.213:85/venix/apis/v1/mail/', this.form).then((response) => {
-        if (response.data !== null) {
-          this.form.email = '';
-          alert("mail has been sent successfully ")
-        }
-      })
+      document.getElementById("emails-input").validEmails;
+      console.log(this.validEmails);
+        axios.post('http://157.230.2.213:85/venix/apis/v1/mail/', this.form).then((response) => {
+          if (response.data !== null) {
+            this.form.email = '';
+            alert("mail has been sent successfully ")
+          }
+        })
     }
   },
 };
