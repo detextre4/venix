@@ -24,7 +24,7 @@
         </form>
         <!-- formulario -->
         <p class="abajo">Are you going to launch a collection on NEAR? 
-          <a href="#" target="_blank"><strong>Contact Us</strong></a>
+          <a href="mailto:contact@venix.vision" target="_blank"><strong>Contact Us</strong></a>
         </p>
       </div>
     </aside>
