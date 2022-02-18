@@ -43,7 +43,6 @@ export default {
   methods: {
     guardar() {
       document.getElementById("emails-input").validEmails;
-      console.log(this.validEmails);
         axios.post('http://157.230.2.213:85/venix/apis/v1/mail/', this.form).then((response) => {
           if (response.data !== null) {
             this.form.email = '';
