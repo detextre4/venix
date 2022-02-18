@@ -48,6 +48,12 @@ span {
   margin-top: 4%;
   }
 }
+@media (max-width: 1280px) {
+  section {
+  margin-top: 0%;
+  }
+}
+
 @media (max-width: 900px) {
   section {
   margin-top: 5%;
@@ -55,15 +61,20 @@ span {
 }
 @media (max-width: 700px) {
   section {
-  margin-top: 2%;
+  margin-top: 0%;
   }
 }
+
+@media (width: 540px) and (height: 720px) {
+  section {
+    margin-top: 2em !important;
+  }
+}
+
+
 @media (max-width: 300px) {
   span {
     text-align: center;
-  }
-  section {
-    margin-top: 2em;
   }
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <section>
     <aside>
-      <h1>20<sup>d</sup> 13<sup>h</sup> 26<sup>m</sup></h1>
+      <h1>WEN?</h1>
     </aside>
 
     <aside>
@@ -23,6 +23,9 @@
           <input type="submit" value="Subscribe" @submit.prevent="guardar" />
         </form>
         <!-- formulario -->
+        <p class="abajo">Are you going to launch a collection on NEAR? 
+          <a href="#" target="_blank"><strong>Contact Us</strong></a>
+        </p>
       </div>
     </aside>
   </section>
@@ -76,10 +79,6 @@ aside h1 {
   -webkit-text-stroke: 1px #ff6b3b;
   -moz-text-stroke: 1px #ff6b3b;
 }
-sup {
-  vertical-align: 0%;
-  font-size: 0.2em;
-}
 
 /*/////////////////////////////////////////////// */
 
@@ -96,12 +95,18 @@ sup {
   font-size: 3.4em;
   font-weight: bold;
 }
-p {
+.arriba {
   font-family: 'Poppins', sans-serif !important;
   margin-top: 0;
   margin-bottom: 5px;
   font-size: 1.3em;
   font-weight: bold;
+}
+.abajo {
+  font-size: 1em;
+}
+strong {
+  color: black;
 }
 input:nth-child(1) {
   text-indent: 1em;
@@ -132,9 +137,30 @@ input:nth-child(2) {
   color: black;
 }
 
+@media (width: 360px) and (height: 740px) {
+  section {
+    margin-top: 1em !important;
+  }
+  .imagen {
+    margin: auto 8em !important;
+  }
+}
+
 @media (width: 375px) and (height: 667px) {
   section {
     margin-top: 0 !important;
+  }
+}
+
+@media (width: 540px) and (height: 720px) {
+  section {
+    margin-top: 3em !important;
+  }
+  .imagen {
+    margin: auto !important;
+  }
+  h1 {
+    font-size: 21vmax !important;
   }
 }
 
@@ -149,11 +175,13 @@ input:nth-child(2) {
   aside h1 {
     font-size: 14vmax;
   }
+  section {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 800px) {
   section {
-    font-size: 15px;
      margin-top: 2em;
   }
   img {
@@ -164,28 +192,37 @@ input:nth-child(2) {
 
 @media (max-width: 700px) {
   aside h1 {
-    font-size: 9vmax;
+    font-size: 15vmax;
   }
   section {
     font-size: 12px;
-    margin-top: 3em;
+    margin-top: 0em;
   }
   aside:nth-child(2) {
     text-align: center;
   }
   .imagen {
     float: top;
-    margin: auto 8em;
+    margin: auto 10em;
   }
   img {
-    width: 180px;
-    height: 150px
+    width: 150px;
+    height: 120px
   }
   .texto h2 {
     font-size: 3em;
   }
   input:nth-child(2) {
     width: 7em;
+  }
+}
+
+@media (max-width: 400px) {
+  section {
+    margin-top: 1em;
+  }
+  input:nth-child(1) {
+    width: 18em;
   }
 }
 
@@ -196,15 +233,13 @@ input:nth-child(2) {
   aside {
     width: 100%;
   }
-  aside:nth-child(1) {
-    margin-top: 2em;
-  }
-  aside h1 {
-    font-size: 9vmax;
+  .imagen {
+    float: top;
+    margin: auto 8em;
   }
   img {
-    width: 150px;
-    height: 120px;
+    width: 140px;
+    height: 110px;
   }
   .texto {
     display: block;
