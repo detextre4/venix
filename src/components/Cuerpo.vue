@@ -68,6 +68,9 @@ section {
 }
 aside:nth-child(1) {
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 aside:nth-child(2) {
   display: flex;
@@ -181,11 +184,11 @@ input:nth-child(2) {
   section {
     font-size: 14px;
   }
-aside:nth-child(2) {
-  display: block;
-  margin: auto;
-  width: auto;
-}
+  aside:nth-child(2) {
+    display: block;
+    margin: auto;
+    width: auto;
+  }
 }
 
 @media (max-width: 800px) {
