@@ -38,14 +38,9 @@ aside:nth-child(1) a {
 span {
   color: #828282;
   letter-spacing: 0.01em;
+  text-align: center;
 }
 
-@media (min-width: 1400px) {
-  section {
-    margin-top: 2%;
-    font-size: 42px;
-  }
-}
 @media (max-width: 1280px) {
   section {
   margin-top: 3%;
@@ -53,7 +48,8 @@ span {
 }
 @media (max-width: 1024px) {
   section {
-  margin-top: 0%;
+    font-size: 20px;
+    margin-top: 20%;
   }
 }
 
@@ -69,6 +65,12 @@ span {
 }
 
 @media (width: 540px) and (height: 720px) {
+  section {
+    margin-top: 2em !important;
+  }
+}
+
+@media (max-width: 414px) {
   section {
     margin-top: 2em !important;
   }

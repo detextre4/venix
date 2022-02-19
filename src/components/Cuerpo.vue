@@ -170,20 +170,6 @@ input:nth-child(2) {
   }
 }
 
-@media (min-width: 1400px) {
-  section {
-    margin-top: 0;
-    font-size: 41px;
-  }
-  img {
-    width: 600px;
-    height: 500px;
-  }
-  h1 {
-    font-size: 20em !important;
-  }
-}
-
 @media (max-width: 1280px) {
   aside:nth-child(2) {
     margin: auto;
@@ -193,10 +179,11 @@ input:nth-child(2) {
 
 @media (max-width: 1000px) {
   aside h1 {
-    font-size: 14vmax;
+    font-size: 20vmax;
   }
   section {
-    font-size: 14px;
+    margin-top: 10%;
+    font-size: 20px;
   }
   aside:nth-child(2) {
     display: block;
@@ -205,13 +192,41 @@ input:nth-child(2) {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 820px) {
   section {
-     margin-top: 2em;
+     margin-top: 4em;
+  }
+  .imagen {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
   }
   img {
-    width: 220px;
+    width: 240px;
+    height: 200px
+  }
+  input:nth-child(1) {
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  section {
+    font-size: 18px;
+     margin-top: 4em;
+  }
+  .imagen {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  img {
+    width: 230px;
     height: 180px
+  }
+  input:nth-child(1) {
+    width: 50%;
   }
 }
 
@@ -242,9 +257,16 @@ input:nth-child(2) {
   }
 }
 
-@media (max-width: 400px) {
+@media (width: 412px) and (height: 914px) {
   section {
-    margin-top: 1em;
+    margin-top: 4em !important;
+  }
+}
+
+
+@media (max-width: 414px) {
+  section {
+    margin-top: 4em;
   }
   input:nth-child(1) {
     width: 18em;

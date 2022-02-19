@@ -43,18 +43,62 @@ img {
   border-radius: 0.4em;
 }
 
-@media (min-width: 1400px) {
+@media (max-width: 1000px) {
   section {
+    margin-top: 10%;
     height: 10%;
-    font-size: 30px;
   }
   aside h2 {
-    font-size: 4em;
+    font-size: 5em;
   }
   img {
     border-radius: 0.4em;
-    width: 130px;
-    height: 160px;
+    width: 70px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 820px) {
+  section {
+    margin-top: 9%;
+    height: 7%;
+  }
+  aside h2 {
+    font-size: 3em;
+  }
+  img {
+    border-radius: 0.4em;
+    width: 50px;
+    height: 70px;
+  }
+}
+@media (max-width: 768px) {
+  section {
+    margin-top: 5%;
+    height: 7%;
+  }
+  aside h2 {
+    font-size: 3em;
+  }
+  img {
+    border-radius: 0.4em;
+    width: 50px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 500px) {
+  section {
+    margin-top: 5%;
+    height: 7%;
+  }
+  aside h2 {
+    font-size: 2em;
+  }
+  img {
+    border-radius: 0.4em;
+    width: 30px;
+    height: 40px;
   }
 }
 </style>
