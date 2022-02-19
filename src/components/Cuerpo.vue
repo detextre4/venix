@@ -6,7 +6,7 @@
 
     <aside>
       <div class="imagen">
-        <img width="250" height="210" src="@/assets/rana.png" alt="Image" />
+        <img width="230" height="180" src="@/assets/rana.png" alt="Image" />
       </div>
       <div class="texto">
         <h2>We are<br />Coming Soon.</h2>
@@ -64,6 +64,7 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 0;
 }
 aside:nth-child(1) {
   margin: auto;
@@ -75,7 +76,7 @@ aside:nth-child(2) {
   margin: auto;
 }
 aside h1 {
-  font-size: 20vmax;
+  font-size: 14vmax;
   margin: 0;
   color: transparent;
   -webkit-text-stroke: 1px #ff6b3b;
@@ -94,7 +95,7 @@ aside h1 {
 .texto h2 {
   margin-top: 0;
   margin-bottom: 20px;
-  font-size: 3.4em;
+  font-size: 2.5em;
   font-weight: bold;
 }
 .arriba {
@@ -115,7 +116,7 @@ input:nth-child(1) {
   font-family: 'Poppins', sans-serif !important;
   font-size: 1em;
   width: 21.3em;
-  height: 2.65em;
+  height: 2.2em;
   box-shadow: 0 0 2px gray;
   border: none;
   border-color: steelblue;
@@ -130,7 +131,7 @@ input:nth-child(2) {
   color: white;
   background: #161616;
   width: 8em;
-  height: 3em;
+  height: 2.5em;
   border-radius: 0em 0.4em 0.4em 0em;
   border-color: transparent;
   z-index: 3;
@@ -236,6 +237,7 @@ aside:nth-child(2) {
 @media (max-width: 300px) {
   section {
     font-size: 9px;
+    margin-top: 2em;
   }
   aside {
     width: 100%;

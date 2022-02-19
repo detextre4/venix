@@ -19,7 +19,7 @@ export default {
 section {
   position: relative;
   width: 100%;
-  height: 22%;
+  height: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,33 +35,32 @@ aside:nth-child(1) a {
   font-size: 1.3em;
   text-decoration: none;
 }
-section aside:nth-child(2) {
-  margin: 1em;
-}
 span {
   color: #828282;
   letter-spacing: 0.01em;
 }
 
 @media (min-width: 1380px) {
-  section {
-  margin-top: 4%;
-  }
 }
 @media (max-width: 1280px) {
+  section {
+  margin-top: 3%;
+  }
+}
+@media (max-width: 1024px) {
   section {
   margin-top: 0%;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 912px) {
   section {
   margin-top: 5%;
   }
 }
 @media (max-width: 700px) {
   section {
-  margin-top: 0%;
+  margin-top: 2%;
   }
 }
 
@@ -75,6 +74,9 @@ span {
 @media (max-width: 300px) {
   span {
     text-align: center;
+  }
+  section {
+    margin-top: 3em;
   }
 }
 </style>
