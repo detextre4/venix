@@ -40,7 +40,11 @@ span {
   letter-spacing: 0.01em;
 }
 
-@media (min-width: 1380px) {
+@media (min-width: 1400px) {
+  section {
+    margin-top: 2%;
+    font-size: 42px;
+  }
 }
 @media (max-width: 1280px) {
   section {

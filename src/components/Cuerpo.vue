@@ -170,6 +170,20 @@ input:nth-child(2) {
   }
 }
 
+@media (min-width: 1400px) {
+  section {
+    margin-top: 0;
+    font-size: 41px;
+  }
+  img {
+    width: 600px;
+    height: 500px;
+  }
+  h1 {
+    font-size: 20em !important;
+  }
+}
+
 @media (max-width: 1280px) {
   aside:nth-child(2) {
     margin: auto;

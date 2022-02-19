@@ -42,4 +42,19 @@ aside h2 {
 img {
   border-radius: 0.4em;
 }
+
+@media (min-width: 1400px) {
+  section {
+    height: 10%;
+    font-size: 30px;
+  }
+  aside h2 {
+    font-size: 4em;
+  }
+  img {
+    border-radius: 0.4em;
+    width: 130px;
+    height: 160px;
+  }
+}
 </style>
