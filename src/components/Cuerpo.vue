@@ -6,7 +6,7 @@
 
     <aside>
       <div class="imagen">
-        <img width="230" height="180" src="@/assets/rana.png" alt="Image" />
+        <img width="160" height="140" src="@/assets/rana.png" alt="Image" />
       </div>
       <div class="texto">
         <h2>We are<br />Coming Soon.</h2>
@@ -79,11 +79,12 @@ aside:nth-child(2) {
   margin: auto;
 }
 aside h1 {
-  font-size: 14vmax;
+  font-size: 14em;
   margin: 0;
   color: transparent;
   -webkit-text-stroke: 1px #ff6b3b;
   -moz-text-stroke: 1px #ff6b3b;
+  letter-spacing: 0.01em;
 }
 
 /*/////////////////////////////////////////////// */
@@ -98,45 +99,59 @@ aside h1 {
 .texto h2 {
   margin-top: 0;
   margin-bottom: 20px;
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: bold;
+  -webkit-text-stroke: 0.2px #000000;
+  -moz-text-stroke: 0.2px #000000;
+  letter-spacing: 0.01em;
 }
 .arriba {
   font-family: 'Poppins', sans-serif !important;
   margin-top: 0;
   margin-bottom: 5px;
-  font-size: 1.3em;
+  font-size: 0.8em;
   font-weight: bold;
+  -webkit-text-stroke: 0.2px #000000;
+  -moz-text-stroke: 0.2px #000000;
+  letter-spacing: 0.01em;
 }
 .abajo {
-  font-size: 1em;
+  font-size: 0.8em;
 }
 strong {
   color: black;
 }
+a {
+  text-decoration-color: rgba(128, 128, 128, 0.856);
+  text-decoration-thickness: 2px;
+  -webkit-text-decoration-thickness: 2px;
+  -moz-text-decoration-thickness: 2px;
+}
 input:nth-child(1) {
   text-indent: 1em;
   font-family: 'Poppins', sans-serif !important;
-  font-size: 1em;
-  width: 21.3em;
+  font-size: 0.8em;
+  width: 16em;
   height: 2.2em;
   box-shadow: 0 0 2px gray;
   border: none;
   border-color: steelblue;
   border-width: 1px;
-  border-radius: 0.3em 0em 0em 0.3em;
+  border-radius: 0.375em 0em 0em 0.375em;
   border-right: transparent;
+  letter-spacing: 0.01em;
 }
 input:nth-child(2) {
   font-family: 'Poppins', sans-serif !important;
-  font-weight: 600;
-  font-size: 1em;
+  font-weight: 550;
+  font-size: 0.8em;
   color: white;
   background: #161616;
-  width: 8em;
+  width: 7em;
   height: 2.5em;
-  border-radius: 0em 0.4em 0.4em 0em;
+  border-radius: 0em 0.375em 0.375em 0em;
   border-color: transparent;
+  letter-spacing: 0.01em;
   z-index: 3;
 }
 .decoracion {
@@ -178,9 +193,6 @@ input:nth-child(2) {
 }
 
 @media (max-width: 1000px) {
-  aside h1 {
-    font-size: 20vmax;
-  }
   section {
     margin-top: 10%;
     font-size: 20px;
@@ -275,8 +287,11 @@ input:nth-child(2) {
 
 @media (max-width: 300px) {
   section {
-    font-size: 9px;
+    font-size: 10px;
     margin-top: 2em;
+  }
+  aside h1 {
+    font-size: 13vmax;
   }
   aside {
     width: 100%;
