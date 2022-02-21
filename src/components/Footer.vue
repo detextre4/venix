@@ -55,46 +55,4 @@ span {
   letter-spacing: 0.01em;
 }
 
-@media (max-width: 1280px) {
-  section {
-  margin-top: 3%;
-  }
-}
-
-@media (max-width: 912px) {
-  section {
-  margin-top: 5%;
-  }
-}
-@media (max-width: 700px) {
-  section {
-  margin-top: 2%;
-  }
-}
-
-@media (width: 540px) and (height: 720px) {
-  section {
-    margin-top: 2em !important;
-  }
-}
-
-@media (max-width: 414px) {
-  section {
-    font-size: 15px;
-    margin-top: 2em !important;
-  }
-}
-
-
-@media (max-width: 300px) {
-  section {
-    font-size: 13px;
-  }
-  span {
-    text-align: center;
-  }
-  section {
-    margin-top: 3em;
-  }
-}
 </style>

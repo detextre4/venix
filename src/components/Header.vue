@@ -2,7 +2,7 @@
   <section>
     <aside>
       <div class="imagen">
-        <img width="34" height="42" src="@/assets/logo2.png" alt="Logo">
+        <img width="34" height="40" src="@/assets/logo2.png" alt="Logo">
       </div>
       <h2>VENIX</h2>
     </aside>
@@ -34,7 +34,6 @@ aside {
 }
 aside h2 {
   font-family: 'Brolink', sans-serif;
-  line-height: 49px;
   color: black;
   font-size: 2em;
   font-weight: bold;
@@ -58,48 +57,20 @@ img {
   }
 }
 
-@media (max-width: 820px) {
+@media (max-width: 1024px) {
   section {
-    margin-top: 9%;
-    height: 7%;
+    font-size: 14px;
   }
-  aside h2 {
-    font-size: 3em;
-  }
+}
+@media (max-width: 912px) {
   img {
-    border-radius: 0.4em;
-    width: 50px;
+    width: 60px;
     height: 70px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 280px) {
   section {
-    margin-top: 5%;
-    height: 7%;
-    font-size: 10px;
-  }
-  aside h2 {
-    font-size: 3em;
-  }
-  img {
-    border-radius: 0.4em;
-    width: 30px;
-    height: 40px;
-  }
-}
-
-@media (max-width: 500px) {
-  section {
-    margin-top: 5%;
-    height: 7%;
-  }
-  aside h2 {
-    font-size: 2em;
-  }
-  img {
-    border-radius: 0.4em;
-    width: 30px;
-    height: 40px;
+    font-size: 13px;
   }
 }
 </style>

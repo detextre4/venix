@@ -1,8 +1,10 @@
 <template>
   <div id="app">
-    <Header></Header>
-    <Cuerpo></Cuerpo>
-    <Footer></Footer>
+    <div class="center">
+      <Header></Header>
+      <Cuerpo></Cuerpo>
+      <Footer></Footer>
+    </div>
   </div>
 </template>
 
@@ -60,10 +62,37 @@ export default {
   #app {
     height: auto;
   }
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  section {
+    font-size: 20px;
+  }
+}
+@media (max-width: 912px) {
+  section {
+    font-size: 18px;
+  }
+}
+@media (max-width: 540px) {
+  .center {
+    margin-top: 30%;
+  }
+}
+@media (max-width: 500px) {
+  .center {
+    margin-top: 50%;
+  }
 }
 @media (max-width: 280px) {
   section {
     font-size: 13px;
+  }
+  .center {
+    margin-top: 70%;
   }
 }
 </style>
