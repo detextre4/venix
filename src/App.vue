@@ -84,7 +84,7 @@ export default {
 }
 @media (max-width: 500px) {
   .center {
-    margin-top: 50%;
+    margin-top: 60%;
   }
 }
 @media (max-width: 280px) {

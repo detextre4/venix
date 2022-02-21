@@ -37,6 +37,7 @@ aside h2 {
   color: black;
   font-size: 2em;
   font-weight: bold;
+  margin: 0;
 }
 .imagen {
   position: relative;
@@ -66,6 +67,15 @@ img {
   img {
     width: 60px;
     height: 70px;
+  }
+}
+@media (max-width: 820px) {
+  section {
+    font-size: 12px;
+  }
+  img {
+    width: 50px;
+    height: 60px;
   }
 }
 @media (max-width: 280px) {
