@@ -1,9 +1,7 @@
 <template>
   <section>
     <aside>
-      <div class="imagen">
-        <img width="34" height="42" src="@/assets/logo2.png" alt="Logo">
-      </div>
+        <img width="48.42" height="48.42" src="@/assets/logo2.png" alt="Logo">
       <h2>VENIX</h2>
     </aside>
   </section>
@@ -17,89 +15,58 @@ export default {
 
 
 <style scoped>
-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 10%;
-}
 aside {
-  width: 15%;
+  /* Auto layout */
+
   display: flex;
-  align-items: center;
-  justify-content: center;
-  transform: scale(1.1, 0.9);
-  -webkit-text-stroke: 0.5px #000000;
-  -moz-text-stroke: 0.5px #000000;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 222.58px;
+  height: 48.42px;
+  left: 608.61px;
+  top: 52.25px;
 }
 aside h2 {
+    /* VENIX */
+
+
+  position: static;
+  width: 165.17px;
+  height: 39.97px;
+  left: 57.42px;
+  top: 0px;
+
   font-family: 'Brolink', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44.1262px;
   line-height: 49px;
-  color: black;
-  font-size: 2em;
-  font-weight: bold;
+
+  color: #161616;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 9px;
 }
-.imagen {
-  position: relative;
-  margin-right: 0.4em;
-}
+
 img {
+  /* Rectangle 1 */
+
+
+  position: absolute;
+  width: 48.42px;
+  height: 48.42px;
+  left: 0px;
+  top: 0px;
+
+  background: #000000;
   border-radius: 4.90291px;
-}
-
-@media (max-width: 1000px) {
-  aside h2 {
-    font-size: 5em;
-  }
-  img {
-    border-radius: 0.4em;
-    width: 70px;
-    height: 90px;
-  }
-}
-
-@media (max-width: 820px) {
-  section {
-    margin-top: 9%;
-    height: 7%;
-  }
-  aside h2 {
-    font-size: 3em;
-  }
-  img {
-    border-radius: 0.4em;
-    width: 50px;
-    height: 70px;
-  }
-}
-@media (max-width: 768px) {
-  section {
-    margin-top: 5%;
-    height: 7%;
-    font-size: 10px;
-  }
-  aside h2 {
-    font-size: 3em;
-  }
-  img {
-    border-radius: 0.4em;
-    width: 30px;
-    height: 40px;
-  }
-}
-
-@media (max-width: 500px) {
-  section {
-    margin-top: 5%;
-    height: 7%;
-  }
-  aside h2 {
-    font-size: 2em;
-  }
-  img {
-    border-radius: 0.4em;
-    width: 30px;
-    height: 40px;
-  }
 }
 </style>
