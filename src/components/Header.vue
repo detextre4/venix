@@ -29,32 +29,32 @@ aside {
   align-items: center;
   justify-content: center;
   transform: scale(1.1, 0.9);
+  -webkit-text-stroke: 0.5px #000000;
+  -moz-text-stroke: 0.5px #000000;
 }
 aside h2 {
+  font-family: 'Brolink', sans-serif;
+  line-height: 49px;
   color: black;
   font-size: 2em;
   font-weight: bold;
 }
 .imagen {
   position: relative;
-  margin-right: 0.3em;
+  margin-right: 0.4em;
 }
 img {
-  border-radius: 0.4em;
+  border-radius: 4.90291px;
 }
 
 @media (max-width: 1000px) {
-  section {
-    margin-top: 10%;
-    height: 10%;
-  }
   aside h2 {
     font-size: 5em;
   }
   img {
     border-radius: 0.4em;
     width: 70px;
-    height: 100px;
+    height: 90px;
   }
 }
 
@@ -76,14 +76,15 @@ img {
   section {
     margin-top: 5%;
     height: 7%;
+    font-size: 10px;
   }
   aside h2 {
     font-size: 3em;
   }
   img {
     border-radius: 0.4em;
-    width: 50px;
-    height: 70px;
+    width: 30px;
+    height: 40px;
   }
 }
 

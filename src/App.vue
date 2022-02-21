@@ -22,12 +22,15 @@ export default {
 </script>
 
 <style>
+@font-face {
+  font-family: 'Brolink', sans-serif;
+  src: url('./assets/Brolink.otf');
+}
 #app {
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: auto;
-  margin-top: 1em;
   width: 100%;
 }
 .header {
@@ -38,5 +41,25 @@ export default {
 }
 .footer {
   flex: 0 0 auto;
+}
+@media (min-width: 1400px) {
+  section {
+    font-size: 23px;
+  }
+}
+@media (max-width: 1024px) {
+  section {
+    font-size: 14px;
+  }
+}
+@media (max-width: 912px) {
+  #app {
+    height: auto;
+  }
+}
+@media (max-width: 280px) {
+  section {
+    font-size: 13px;
+  }
 }
 </style>

@@ -1,7 +1,9 @@
 <template>
   <section>
     <aside>
-      <a href="https://twitter.com/venixnft?s=11" target="_blank" class="fa-brands fa-twitter"></a>
+      <a href="https://twitter.com/venixnft?s=11" target="_blank">
+        <svg-icon type="mdi" :path="path" class="icono" />
+      </a>
     </aside>
     <aside>
       <span>© Copyrights VENIX | All Rights Reserved</span>
@@ -10,8 +12,20 @@
 </template>
 
 <script>
+import SvgIcon from '@jamescoyle/vue-icon'
+import { mdiTwitter } from '@mdi/js'
+
 export default {
-  name: 'Footer-cuerpo'
+  name: 'Footer-cuerpo',
+    components: {
+      SvgIcon
+    },
+
+    data() {
+      return {
+        path: mdiTwitter,
+      }
+    }
 }
 </script>
 
@@ -28,28 +42,22 @@ section {
 section aside:nth-child(1) {
   margin: 0em;
 }
-aside:nth-child(1) a {
-  margin: 0.5em;
+.icono {
   color: black;
-  background: transparent;
-  font-size: 1.3em;
-  text-decoration: none;
+  width: 90%;
+  margin-bottom: 1em;
 }
 span {
+  font-size: 0.9em;
   color: #828282;
   letter-spacing: 0.01em;
   text-align: center;
+  letter-spacing: 0.01em;
 }
 
 @media (max-width: 1280px) {
   section {
   margin-top: 3%;
-  }
-}
-@media (max-width: 1024px) {
-  section {
-    font-size: 20px;
-    margin-top: 20%;
   }
 }
 
@@ -72,12 +80,16 @@ span {
 
 @media (max-width: 414px) {
   section {
+    font-size: 15px;
     margin-top: 2em !important;
   }
 }
 
 
 @media (max-width: 300px) {
+  section {
+    font-size: 13px;
+  }
   span {
     text-align: center;
   }
