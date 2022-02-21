@@ -69,30 +69,22 @@ export default {
     flex-direction: column;
   }
   section {
-    font-size: 20px;
-  }
-}
-@media (max-width: 912px) {
-  section {
     font-size: 18px;
   }
 }
 @media (max-width: 540px) {
-  .center {
-    margin-top: 30%;
+  section {
+    font-size: 16px;
   }
 }
 @media (max-width: 500px) {
-  .center {
-    margin-top: 60%;
+  section {
+    font-size: 14px;
   }
 }
 @media (max-width: 280px) {
   section {
     font-size: 13px;
-  }
-  .center {
-    margin-top: 70%;
   }
 }
 </style>
