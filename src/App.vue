@@ -32,7 +32,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   margin: auto;
   max-width: 1440px;
-  width: 1440px;
   max-height: 1024px;
 }
 .header {
@@ -45,6 +44,9 @@ export default {
   flex: 0 0 auto;
 }
 @media (min-width: 1400px) {
+  #app {
+  width: 1440px;
+  }
   section {
     font-size: 19px;
   }
