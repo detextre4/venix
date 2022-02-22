@@ -157,4 +157,35 @@ input:nth-child(2) {
 .decoracion {
   color: black;
 }
+@media (max-width: 912px) {
+  h1 {
+    font-size: 12em !important;
+  }
+}
+@media (max-width: 540px) {
+  h1 {
+    font-size: 7em !important;
+  }
+  img {
+    width: 120px;
+    height: 100px;
+  }
+  aside:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+  }
+  .texto {
+    display: block;
+    text-align: center;
+  }
+  .imagen {
+    display: block;
+    margin: 1em;
+  }
+}
+@media (max-width: 280px) {
+  section {
+    font-size: 5px;
+  }
+}
 </style>

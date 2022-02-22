@@ -32,7 +32,7 @@ export default {
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin: auto;
+  margin: 4vmax auto;
   max-width: 1440px;
   max-height: 1024px;
 }
@@ -45,22 +45,39 @@ export default {
 .footer {
   flex: 0 0 auto;
 }
+
 @media (min-width: 1400px) {
   #app {
-  width: 1440px;
+    width: 1440px;
+    margin: 10vmax auto;
   }
   section {
     font-size: 19px;
   }
 }
+
+@media (max-width: 1280px) {
+  section {
+    font-size: 14px;
+  }
+  #app {
+    margin: 10vmax auto;
+  }
+}
+
 @media (max-width: 1024px) {
   section {
     font-size: 14px;
   }
+  #app {
+    margin: 4vmax auto;
+  }
 }
+
 @media (max-width: 912px) {
   #app {
     height: auto;
+    margin: 19vmax auto;
   }
   .center {
     display: flex;
@@ -72,19 +89,31 @@ export default {
     font-size: 18px;
   }
 }
+
 @media (max-width: 540px) {
   section {
-    font-size: 16px;
+    font-size: 14px;
+  }
+  #app {
+    margin: 15vmax auto;
   }
 }
 @media (max-width: 500px) {
   section {
     font-size: 14px;
   }
+  #app {
+    margin: 20vmax auto;
+  }
+}
+@media (max-width: 400px) {
+  #app {
+    margin: 10vmax auto;
+  }
 }
 @media (max-width: 280px) {
   section {
-    font-size: 13px;
+    font-size: 5px;
   }
 }
 </style>

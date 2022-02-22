@@ -78,9 +78,22 @@ img {
     height: 60px;
   }
 }
+@media (max-width: 540px) {
+  section {
+    font-size: 6px;
+  }
+  img {
+    width: 30px;
+    height: 40px;
+  }
+}
 @media (max-width: 280px) {
   section {
-    font-size: 13px;
+    font-size: 5px;
+  }
+  img {
+    width: 25px;
+    height: 35px;
   }
 }
 </style>
