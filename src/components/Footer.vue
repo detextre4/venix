@@ -31,9 +31,9 @@ export default {
 
 <style scoped>
 section {
+  margin-top: 5em;
   position: relative;
   width: 100%;
-  height: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,7 +48,7 @@ section aside:nth-child(1) {
   margin-bottom: 1em;
 }
 span {
-  font-size: 0.9em;
+  font-size: 0.8em;
   color: #828282;
   letter-spacing: 0.01em;
   text-align: center;

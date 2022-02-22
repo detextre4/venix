@@ -49,16 +49,16 @@ export default {
 @media (min-width: 1400px) {
   #app {
     width: 1440px;
-    margin: 10vmax auto;
+    margin: 7vmax auto;
   }
   section {
-    font-size: 19px;
+    font-size: 20px;
   }
 }
 
 @media (max-width: 1280px) {
   section {
-    font-size: 14px;
+    font-size: 18px;
   }
   #app {
     margin: 10vmax auto;
@@ -86,7 +86,16 @@ export default {
     flex-direction: column;
   }
   section {
-    font-size: 18px;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 800px) {
+  #app {
+    margin: 15vmax auto;
+  }
+  section {
+    font-size: 20px;
   }
 }
 

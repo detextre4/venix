@@ -6,7 +6,7 @@
 
     <aside>
       <div class="imagen">
-        <img width="180" height="160" src="@/assets/rana.png" alt="Image" />
+        <img width="160" height="140" src="@/assets/rana.png" alt="Image" />
       </div>
       <div class="texto">
         <h2>We are<br />Coming Soon.</h2>
@@ -79,7 +79,7 @@ aside:nth-child(2) {
   margin: auto;
 }
 aside h1 {
-  font-size: 14em;
+  font-size: 10em;
   margin: 0;
   color: transparent;
   -webkit-text-stroke: 1px #ff6b3b;
@@ -99,7 +99,7 @@ aside h1 {
 .texto h2 {
   margin-top: 0;
   margin-bottom: 20px;
-  font-size: 2em;
+  font-size: 1.9em;
   font-weight: bold;
   -webkit-text-stroke: 0.2px #000000;
   -moz-text-stroke: 0.2px #000000;
@@ -110,7 +110,7 @@ aside h1 {
   margin-top: 0;
   margin-bottom: 5px;
   font-size: 0.8em;
-  font-weight: bold;
+  font-weight: 500;
   -webkit-text-stroke: 0.2px #000000;
   -moz-text-stroke: 0.2px #000000;
   letter-spacing: 0.01em;
