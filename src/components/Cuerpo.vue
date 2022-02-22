@@ -162,7 +162,7 @@ input:nth-child(2) {
     font-size: 12em !important;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 640px) {
   h1 {
     font-size: 7em !important;
   }
