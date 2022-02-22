@@ -44,7 +44,7 @@ section aside:nth-child(1) {
 }
 .icono {
   color: black;
-  width: 90%;
+  width: 80%;
   margin-bottom: 1em;
 }
 span {

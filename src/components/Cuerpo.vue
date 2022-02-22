@@ -82,8 +82,8 @@ aside h1 {
   font-size: 10em;
   margin: 0;
   color: transparent;
-  -webkit-text-stroke: 1px #ff6b3b;
-  -moz-text-stroke: 1px #ff6b3b;
+  -webkit-text-stroke: 0.5px #ff6b3b;
+  -moz-text-stroke: 0.5px #ff6b3b;
   letter-spacing: 0.01em;
 }
 
