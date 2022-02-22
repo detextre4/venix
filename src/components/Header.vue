@@ -88,12 +88,12 @@ img {
   }
 }
 @media (max-width: 280px) {
-  section {
-    font-size: 5px;
+  h2 {
+    font-size: 2em !important;
   }
   img {
-    width: 25px;
-    height: 35px;
+    width: 20px;
+    height: 30px;
   }
 }
 </style>

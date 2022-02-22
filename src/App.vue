@@ -112,8 +112,11 @@ export default {
   }
 }
 @media (max-width: 280px) {
+  #app {
+    margin: 15vmax auto;
+  }
   section {
-    font-size: 5px;
+    font-size: 10px !important;
   }
 }
 </style>
