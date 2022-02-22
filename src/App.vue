@@ -56,6 +56,16 @@ export default {
   }
 }
 
+@media (min-width: 1590px) {
+  #app {
+    margin: 4vmax auto;
+  }
+  section {
+    font-size: 22px;
+  }
+}
+
+
 @media (max-width: 1280px) {
   section {
     font-size: 18px;
