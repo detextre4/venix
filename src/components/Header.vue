@@ -78,7 +78,7 @@ img {
     height: 60px;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 640px) {
   section {
     font-size: 6px;
   }

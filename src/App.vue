@@ -90,7 +90,7 @@ export default {
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 640px) {
   section {
     font-size: 14px;
   }
